@@ -18,7 +18,7 @@ var serverMain = require('./server-main'),
 var installation;
 
 licenses.getSettingsModel(function(err,settings){
-    installation = settings.installation || "local"
+    installation = (settings && settings.installation) || "local"
 })
 
 

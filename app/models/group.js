@@ -71,7 +71,7 @@ var GroupSchema = new Schema({
                                 reverse: {type: Boolean, default: false}
                             },
     emergencyMessage:       {
-                                enable: false,
+                                enable: {type: Boolean, default: false},
                                 msg: {type: String, default: ""},
                                 hPos: {type: String, default: "middle"},
                                 vPos: {type: String, default: "middle"}

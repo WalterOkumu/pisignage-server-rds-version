@@ -140,6 +140,7 @@ exports.updateSettings = function(req,res) {
 }
 
 exports.getSettingsModel(function(err,settings){
-    licenseDir = config.licenseDirPath+(settings.installation || "local")
+    var inst = (settings && settings.installation) || "local";
+    licenseDir = config.licenseDirPath + inst;
 })
 

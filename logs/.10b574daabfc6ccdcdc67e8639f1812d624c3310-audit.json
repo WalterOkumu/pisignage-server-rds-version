@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\okumu\\GitHub\\personal_apps\\pisignage-server-rds-version\\logs\\.10b574daabfc6ccdcdc67e8639f1812d624c3310-audit.json",
+    "files": [
+        {
+            "date": 1783079671777,
+            "name": "C:\\Users\\okumu\\GitHub\\personal_apps\\pisignage-server-rds-version\\logs\\mcp-puppeteer-2026-07-03.log",
+            "hash": "f320d5d5f94f94aa1c470ae91a88cd540837cf5fb25606e226c25a83c55afbb3"
+        }
+    ],
+    "hashType": "sha256"
+}
